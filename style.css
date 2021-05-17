@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;padding: 0;
+}
+.container{
+    border:solid  1px yellow;
+    ;
+}
+.header{
+    border: solid red 1px;
+    background-image: url(Annexes/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:10em;
+
+}
+#accueil{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#dispo{
+    color: white;
+    font-size: small;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;;
+}
+#bouton{
+    color: white;
+    background-color: rgb(79, 209, 79);
+    opacity:0.9;
+}
+.calendar{
+    height: 1em;width: 1em;
+    color: white;
+}
+.prix{
+    font-size: x-small;
+}
+
+.carousel-control-prev-icon{
+    color: black;
+
+}
+.voiture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px rgb(228, 221, 221) ;
+    
+}
+.card-body{
+    border: 0px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.agence{
+    margin: 10px;
+}
